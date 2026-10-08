@@ -10,7 +10,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System;
-using StajProje.WebUI.Dtos.ReservationDtos; // DTO'yu buraya using olarak ekliyoruz
+using StajProje.WebUI.Dtos.ReservationDtos;
 
 namespace StajProje.WebUI.Models
 {

@@ -7,7 +7,7 @@ namespace StajProje.WebApi.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost;initial catalog=ApiYummyDb;integrated security=true;");
+            optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;initial catalog=ApiYummyDb;integrated security=true;");
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Chef> Chefs { get; set; }
