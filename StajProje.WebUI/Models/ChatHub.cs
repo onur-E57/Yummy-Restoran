@@ -191,7 +191,6 @@ Sadece ve sadece müşteri onay verdikten sonra, yanıtının en sonuna KESİNL�
 
                 string fullResponse = sb.ToString();
 
-                // 🔍 GİZLİ ETİKETİ YAKALAMA VE VERİTABANINA KAYDETME
                 if (fullResponse.Contains("||SAVE:"))
                 {
                     try
